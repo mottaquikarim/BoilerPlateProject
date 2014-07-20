@@ -1,5 +1,5 @@
 // INCLUDE OBJECTS LOADED FROM REQUIRE() HERE
-var fs = require( 'fs );
+var fs = require( 'fs' );
 var EventEmitter = require( 'events' ).EventEmitter;
 
 /*

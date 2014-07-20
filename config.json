@@ -1,0 +1,41 @@
+{
+	"app": {
+		"type": "dir"
+		, "files": ["routes.js"]
+	}
+	, "config": {
+		"type": "dir"
+		, "files": ["db.js"]
+	}
+	, "public": {
+		"type": "dir"
+		, "files": ["index.html"]
+		, "css": {
+			"type": "dir"
+			, "files": ["main.css"]
+		}
+		, "js": {
+			"type": "dir"
+			, "files": [ "app.js", "appRoutes.js" ]
+			, "controllers": {
+				"type": "dir"
+				, "files": [ "sampleController.js" ]
+			}
+			, "services": {
+				"type": "dir"	
+				, "files": [ "sampleService.js" ]
+			}
+		}
+		, "img": {
+			"type": "dir"
+		}
+		, "partials": {
+			"type": "dir"
+			, "files": [ "samplepartial1.html" ]
+		}
+	}
+	, "files": [
+		"package.json"
+		, "server.js"
+	]
+}
